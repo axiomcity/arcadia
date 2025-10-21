@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42c2e332-88e3-44b7-a591-d105780175f3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ticket.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/JockeyOne-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/LibertinusSerifDisplay-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/p_defaut.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/p_jeu.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/p_jeu2.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/scollbar.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banner_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cat_01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chat/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/game_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/github/git_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/github/git_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/github/git_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/github/git_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/github/imgnotfound.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/grouchat_01.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/grouchat_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/grouchat_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/grouchat_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/habitat/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/habitat/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/habitat/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/habitat/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/habitat/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/habitat/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/habitat/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/habitat/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/habitat/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/habitat/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/Pasted image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/arrow_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/arrow_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/diagramme.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/git.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/icon_0101.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/icon_0102.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/icon_0103.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/icon_0104.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/icon_0105.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/mouse_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/mouse_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/scrollbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/use.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/08.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/09.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/10.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/11.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/12.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/13.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/14.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/15.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/16.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/17.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/18.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index-en.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index-es.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index-ru.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taches.md" beforeDir="false" afterPath="$PROJECT_DIR$/taches.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="343kbcalrb37pf0RqNV5T60Z9Rm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.localhost:5173.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/david/Desktop/arcadia",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="localhost:5173" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5173/">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:5173" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42c2e332-88e3-44b7-a591-d105780175f3" name="Changes" comment="" />
+      <created>1760449716646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760449716646</updated>
+      <workItem from="1760449718330" duration="33000" />
+      <workItem from="1760449752684" duration="64000" />
+      <workItem from="1760450372212" duration="7930000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
