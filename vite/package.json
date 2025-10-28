@@ -1,7 +1,7 @@
 {
   "name": "vite",
   "private": true,
-  "homepage": "https://axiomcity.github.io/arcadia",
+  "homepage": "https://axiomcity.github.io/arcadia/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

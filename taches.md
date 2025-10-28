@@ -18,7 +18,8 @@ REPLICATION
 DOCUMENTATION
 
 
-# HTML CSS
+######################## JETAIS ICI 28 Octobre ####################
+# Coder la page accueil, billeterie
 # carrousel
 https://www.w3schools.com/howto/howto_js_slideshow.asp
 

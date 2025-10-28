@@ -30,7 +30,9 @@
 }
 
 
-/* ------------------ START ----------------- */
+/* ------------------ INDEX ----------------- */
+/* ------------------ INDEX ----------------- */
+/* ------------------ INDEX ----------------- */
 .lang {
     display: flex;
     position: relative;
@@ -146,6 +148,8 @@
 
 
 /* ------------------ INDEX ----------------- */
+/* ------------------ INDEX ----------------- */
+/* ------------------ INDEX ----------------- */
 .section-container {
     position: relative;
     justify-content: center;
@@ -156,7 +160,7 @@
     flex-direction: column;
     padding-top: 128px;
     background-color: #2c2501;
-    }
+}
 
 .bg {
     width: 100%;
@@ -206,7 +210,6 @@
 }
 
 .lang div a:hover {
-    color: orange;
     cursor: pointer;
 }
 
@@ -224,7 +227,6 @@
     right: -16px;
     width: 167px;
     height: 32px;
-    background: #ff4500;
     color: #fff;
     border: none;
     font-size: 24px;
@@ -235,7 +237,6 @@
     position: absolute;
     top: -40px;
     right: -16px;
-    background: #ffa500;
     color: #fff;
     border: none;
     font-size: 24px;
@@ -277,34 +278,14 @@
 
 
 /* ----------------- TICKETS INDEX --------------- */
-.cont_billet {
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.billet-center-gap {
-    margin: 0px 4px 1rem 4px;
-}
-
-.billet {
-    min-height: 48px;
-    align-items: center;
-    font-size: 16px;
-    display: flex;
-    border-radius: 10px;
-    width: 90%;
-    text-align: center;
-    background-color: #1d1802;
-    justify-content: center;
-}
-
+/* ----------------- TICKETS INDEX --------------- */
+/* ----------------- TICKETS INDEX --------------- */
 .tik_gap8px {
     padding: 8px 0px;
 }
 
 .bg_ticket_1 {
-background-color: #2c2501;
+    background-color: #2c2501;
 }
 
 .bg_ticket_2 {
@@ -315,6 +296,40 @@ background-color: #2c2501;
     background-color: #317635;
 }
 
+.cont_billet {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.billet-center-gap {
+    margin: 0 8px;
+}
+
+.billet-sel {
+    cursor: pointer;
+    min-height: 64px;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    background-color: #39300a;
+    justify-content: center;
+    margin-bottom: 0px;
+    border-radius: 15px 15px 0 0;
+}
+
+.billet {
+    cursor: pointer;
+    min-height: 64px;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    background-color: #1d1802;
+    justify-content: center;
+    margin-bottom: 0px;
+    border-radius: 15px 15px 0 0;
+}
+
 .card-open {
     background-color: #1d1802;
     transition: all 0.5s ease-in-out;
@@ -323,6 +338,8 @@ background-color: #2c2501;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
+    width: 90%;
 }
 
 .card-close {
@@ -331,17 +348,79 @@ background-color: #2c2501;
     display: none;
 }
 
+.incard-cont {
+    position: relative;
+    width: 90%;
+    height: 340px;
+    z-index: 1;
+    padding: 0 50px;
+}
+
+.incard-bg {
+    position: absolute;
+    top: 0;
+    width: 98%;
+    height: 75%;
+    object-fit: cover;
+    z-index: -1;
+    left: 0;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
 .card-icon {
     width: 32px;
     height: 32px;
     margin-right: 8px;
 }
 
+.cont1 {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cont1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 90px;
+}
+
+.small {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    color: #a9aa72;
+}
+
+.bubble-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bubble {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #1c2c01;
+    padding: 6px;
+}
+
+.bubble-cta {
+    color : black;
+    background: #ff9400;
+    font-weight: 600;
+    padding: 4px 20px;
+    margin-top: 16px;
+    border-radius: 5px;
+}
 
 
-
-
-
+/* ------------------ END ----------------- */
+/* ------------------ END ----------------- */
 /* ------------------ END ----------------- */
 footer {
     position: absolute;
@@ -372,6 +451,8 @@ footer {
 
 
 /* ------------------ MEDIA QUERIES ----------------- */
+/* ------------------ MEDIA QUERIES ----------------- */
+/* ------------------ MEDIA QUERIES ----------------- */
 @media screen and (max-width: 800px) {
 
     .chat {
@@ -388,18 +469,6 @@ footer {
         text-transform: uppercase;
         font-weight: 600;
     }
-
-    .billet {
-        position: absolute;
-        top: 64px;
-        right: 0;
-        background: #ffa500;
-        height: 32px;
-        width: 128px;
-        object-fit: cover;
-    }
-
-
 
     .hide_nav .navbar_links {
         right: -100%;
@@ -493,7 +562,6 @@ footer {
         width: 32px
     }
 
-    /* BURGER BUTTON ANIMATION */
     .navbar_item {
         transform: translateY(100vh);
     }
@@ -539,6 +607,6 @@ footer {
         width: 100%;
         box-shadow: 0 0 15px black;
         border-radius: 0;
-        background-color: black !important;
+        background: #1c2c01;
     }
 }

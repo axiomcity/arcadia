@@ -18,7 +18,7 @@ function Navbar() {
                 <a href="/">
                     <img className="ico64" src={icon} alt="LOGO-ZOO" />
                 </a>
-                <h6 className="px-3 fs-4 text-black">ZOO<br></br> CHARCADIA</h6>
+                <h6 className="px-3 fs-4 text-black">ZOO<br></br> PARCACHAT</h6>
                 <img className="chat ico64 chanim" src={Chanimain} alt="chanimain" />
             </div>
 
