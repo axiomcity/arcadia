@@ -19,9 +19,22 @@ DOCUMENTATION
 
 
 ######################## JETAIS ICI 28 Octobre ####################
-# Coder la page accueil, billeterie
-# carrousel
+############# UX / UI
+# Coder les page suivantes :
+# accueil, 
+# billeterie, 
+# petit train,
+# RGPD,
+# animal,
+Faire un carrousel d'images
 https://www.w3schools.com/howto/howto_js_slideshow.asp
+# habitat,
+# recherche,
+# espace employé,
+# connexion,
+# avis,
+# resultat,
+# ecologie
 
 
 # --- Monter une base de donnée

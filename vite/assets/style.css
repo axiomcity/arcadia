@@ -276,6 +276,9 @@
     display: inline-block;
 }
 
+.prix-text {
+    width: 90%;
+}
 
 /* ----------------- TICKETS INDEX --------------- */
 /* ----------------- TICKETS INDEX --------------- */
@@ -401,23 +404,70 @@
     flex-direction: column;
 }
 
-.bubble {
+.bubble-billet-text {
     display: flex;
+    width: 90%;
+    border-radius: 8px;
     flex-direction: row;
     justify-content: space-between;
+    background: #5b7b25;
+    padding: 8px 16px;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.bubble {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: #1c2c01;
-    padding: 6px;
+    padding: 12px;
+    padding-bottom: 0;
 }
 
 .bubble-cta {
-    color : black;
-    background: #ff9400;
-    font-weight: 600;
-    padding: 4px 20px;
-    margin-top: 16px;
-    border-radius: 5px;
+    display: flex;
+    background: #b84000;
+    padding: 0px 16px;
+    border-radius: 4px;
+    align-items: center;
+    width: 250px;
+}
+.bubble-cta:hover {
+    background: #dba923;
 }
 
+.bubble-text-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.bubble-content-space-btw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-billeterie {
+    width: 50%;
+    object-fit: cover;
+    margin: 16px 0;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.billeterie-sec1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.billet-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 5%;
+}
 
 /* ------------------ END ----------------- */
 /* ------------------ END ----------------- */
@@ -608,5 +658,8 @@ footer {
         box-shadow: 0 0 15px black;
         border-radius: 0;
         background: #1c2c01;
+    }
+    .card-open {
+        padding: 0;
     }
 }

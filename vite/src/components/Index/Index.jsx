@@ -7,6 +7,7 @@ import cardicon1 from './card_icon1.png';
 import cardicon2 from './card_icon2.png';
 import cardicon3 from './card_icon3.png';
 import cardbg1 from './entrée_2.webp';
+import img_billeterie from './Chat_27.jpg';
 import bg1 from './bg_1.jpg';
 import bg2 from './bg_1.webp';
 import bg3 from './bg_2.webp';
@@ -102,6 +103,30 @@ function Page() {
 
             <span className='sep'></span>
             <div className="section-container">
+                <h1 >Billets & Prix</h1>
+
+                <p className='prix-text'>
+                    Réservez vos billets pour Zoo Berlin en ligne rapidement et facilement.
+                    Environ 20.000 animaux attendent
+                    votre visite avec impatience!
+                </p>
+                <div className="bubble-billet-text">
+                    <p className='prix-text'>
+                        Des travaux de construction sont actuellement en cours dans l'Aquarium
+                        de Berlin et il y a des  restrictions.
+                        Vous trouverez plus d'informations ici.
+                    </p>
+                </div>
+                <div className="billeterie-sec1">
+                    <p>Billeterie</p>
+                    <div className="billet-flex">
+                        <a href="billetterie.html">
+                            <img className='img-billeterie' src={img_billeterie} alt="billeterie link" />
+                        </a>
+                        <p>Acceder a la billeterie</p>
+                    </div>
+                </div>
+
                 <h1 className='p-3'>Aperçu des prix</h1>
                 <div className="cont_billet">
                     <p className={`z-0 ${isCardOpen1 ? "billet" : "billet-sel"}`} onClick={toggleCard1}>Billet du jour</p>
@@ -133,58 +158,108 @@ function Page() {
 
 
                     <div className='bubble-container'>
-                        <p>Adultes</p>
-                        <p className='small'>A partir de 16ans</p>
+                        <div className="bubble-text-left">
+                            <p>Adultes</p>
+                            <p className='small'>A partir de 16ans</p>
+                        </div>
                         <div className="bubble">
-                            <div>
+                            <div className='bubble-content-space-btw'>
                                 <p>Zoo</p>
-                                <p> En ligne: à partir de 16,00 € </p>
-                                <p className='small'> Caisse enregistreuse: 25,00 € </p>
+                                <p> En ligne: à partir de 16,00 €<br></br>
+                                    <span className='small'> Caisse enregistreuse: 19,00 € </span>
+                                </p>
                             </div>
 
-                            <div>
+                            <div className='bubble-content-space-btw'>
                                 <p>Zoo + Aquarium</p>
-                                <p> En ligne: à partir de 24,00 € </p>
-                                <p className='small'> Caisse enregistreuse: 37,00 € </p>
+                                <p> En ligne: à partir de 24,00 € <br></br>
+                                    <span className='small'> Caisse enregistreuse: 37,00 € </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="bubble-text-left">
+                            <p>Enfants</p>
+                            <p className='small'>4 a 15 ans</p>
+                        </div>
+                        <div className="bubble">
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo</p>
+                                <p> En ligne: à partir de 7,50 €<br></br>
+                                    <span className='small'> Caisse enregistreuse: 12,50 € </span>
+                                </p>
+                            </div>
+
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo + Aquarium</p>
+                                <p> En ligne: à partir de 11,00 € <br></br>
+                                    <span className='small'> Caisse enregistreuse: 17,50 € </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="bubble-text-left">
+                            <p>Enfants</p>
+                            <p className='small'>moins de 4 ans</p>
+                        </div>
+                        <div className="bubble">
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo + Aquarium</p>
+                                <p> libre <br></br> </p>
+                            </div>
+                        </div>
+
+                        <div className="bubble-text-left">
+                            <p>Réduit**</p>
+                            <p className='small'>Étudiants (16+), Étudiants, Stagiaires, FSJler/BFDLer, ALG I+II bénéficiaires,
+                                détenteurs de BN, gravement handicapés (à partir de 50 GdB, 16+)</p>
+                        </div>
+                        <div className="bubble">
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo</p>
+                                <p> En ligne: à partir de 9,00 €<br></br>
+                                    <span className='small'> Caisse enregistreuse: 14,00 € </span>
+                                </p>
+                            </div>
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo + Aquarium</p>
+                                <p> En ligne: à partir de 13,00 € <br></br>
+                                    <span className='small'> Caisse enregistreuse: 20,00 € </span>
+                                </p>
                             </div>
                         </div>
 
 
-                        <p> Le prix du billet comprend une
+                        <p className='bubble-billet-text'> Le prix du billet comprend une
                             contribution volontaire de protection des espèces
                             de 0,50 € (hors réduction) – voir plus
                             d’informations ci-dessous. </p>
 
-                        <hr className='sep'></hr>
+                        <button className='bubble-cta'><p> RÉSERVEZ DES BILLETS MAINTENANT {">"} </p> </button>
                     </div>
-                    <button className='bubble-cta'>
+                    <hr className='sep'></hr>
+                    <hr></hr>
+
+                    <div className="card-parapgraph">
                         <p>
-                            RÉSERVEZ DES BILLETS MAINTENANT {">"}
+                            Des indices importants !
                         </p>
-                    </button>
-                </div>
+                        <p>
+                            Le prix du billet comprend des frais de protection des espèces de 0,50 € (hors réduction).  La contribution à la conservation des espèces soutient 100% du programme de protection des espèces de Zoo et Tierpark Berlin «BERLIN WORLD WILD». Vous trouverez plus d'informations ici. La contribution est facultative et peut être non sélectionnée indépendamment lors de l'achat.
+                        </p>
 
-                <hr></hr>
+                        <p>
+                            Les enfants de moins de 12 ans et les personnes qui n'ont pas la maturité nécessaire ou qui ont besoin d'une surveillance permanente en raison de leur condition mentale et/ou physique doivent toujours être accompagnés d'un adulte, une personne de surveillance.
+                        </p>
 
-                <div className="card-parapgraph">
-                    <p>
-                        Des indices importants !
-                    </p>
-                    <p>
-                        Le prix du billet comprend des frais de protection des espèces de 0,50 € (hors réduction).  La contribution à la conservation des espèces soutient 100% du programme de protection des espèces de Zoo et Tierpark Berlin «BERLIN WORLD WILD». Vous trouverez plus d'informations ici. La contribution est facultative et peut être non sélectionnée indépendamment lors de l'achat.
-                    </p>
+                        <p>
+                            * Zoo et Aquarium Berlin doivent être visités le même jour et le site peut ne pas être laissé entre-temps. Veuillez noter qu'il peut y avoir des temps d'attente lors de l'entrée dans l'aquarium. Les billets pour une journée combinée sont disponibles au plus tard à 15 heures pour la journée de visite respective.
+                        </p>
 
-                    <p>
-                        Les enfants de moins de 12 ans et les personnes qui n'ont pas la maturité nécessaire ou qui ont besoin d'une surveillance permanente en raison de leur condition mentale et/ou physique doivent toujours être accompagnés d'un adulte, une personne de surveillance.
-                    </p>
-
-                    <p>
-                        * Zoo et Aquarium Berlin doivent être visités le même jour et le site peut ne pas être laissé entre-temps. Veuillez noter qu'il peut y avoir des temps d'attente lors de l'entrée dans l'aquarium. Les billets pour une journée combinée sont disponibles au plus tard à 15 heures pour la journée de visite respective.
-                    </p>
-
-                    <p>
-                        ** Valable uniquement en combinaison avec une preuve appropriée. La preuve doit être personnalisée, avec une validité (valable) et délivrée par une autorité/une institution officielle. La preuve est vérifiée à l'entrée - veuillez fournir avec photo. Les personnes gravement handicapées jusqu'à 15 ans reçoivent l'entrée gratuite. Il en va de même pour une escorte d'une personne gravement handicapée avec note B/H dans la carte d'identité (accompagnateur maximal).
-                    </p>
+                        <p>
+                            ** Valable uniquement en combinaison avec une preuve appropriée. La preuve doit être personnalisée, avec une validité (valable) et délivrée par une autorité/une institution officielle. La preuve est vérifiée à l'entrée - veuillez fournir avec photo. Les personnes gravement handicapées jusqu'à 15 ans reçoivent l'entrée gratuite. Il en va de même pour une escorte d'une personne gravement handicapée avec note B/H dans la carte d'identité (accompagnateur maximal).
+                        </p>
+                    </div>
                 </div>
 
                 <div className={`z-1 ${isCardOpen2 ? "card-open" : "card-close"}`}>
