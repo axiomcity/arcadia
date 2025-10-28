@@ -18,11 +18,11 @@ REPLICATION
 DOCUMENTATION
 
 
-######################## JETAIS ICI 28 Octobre ####################
 ############# UX / UI
 # Coder les page suivantes :
 # accueil, 
 # billeterie, 
+######################## JETAIS ICI 28 Octobre ####################
 # petit train,
 # RGPD,
 # animal,
