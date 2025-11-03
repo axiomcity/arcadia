@@ -28,22 +28,22 @@ function Navbar() {
 
                         <li className=" px-1 navbar_item SlideInDown-1">
                             <a href="index.html" className="ulink text-decoration-none">
-                                Contact
+                                Billeterie
                             </a>
                         </li>
                         <li href="./index-us.html" className=" px-1 navbar_item SlideInDown-2">
                             <a className="ulink text-decoration-none">
-                                connexion
+                                Services
                             </a>
                         </li>
                         <li className="px-1 navbar_item SlideInDown-3">
                             <a href="./index-de.html" className="ulink text-decoration-none">
-                                projets
+                                Animaux
                             </a>
                         </li>
                         <li className="px-1 navbar_item SlideInDown-4">
                             <a href="./index-tr.html" className="ulink text-decoration-none">
-                                informatique
+                                Connexion
                             </a>
                         </li>
 

@@ -21,7 +21,7 @@ function Page() {
         setIsOpen(!isOpen);
     };
 
-    const [isCardOpen1, setIsCardOpen1] = useState(false);
+    const [isCardOpen1, setIsCardOpen1] = useState(true);
     const toggleCard1 = () => {
         setIsCardOpen1(true);
         setIsCardOpen2(false);
@@ -84,12 +84,6 @@ function Page() {
                         <button className="horaires-btn my-2 rounded-3 text-black bg-warning">Toutes les heures d’ouvertures</button>
                     </p>
                     <p className='d-flex flex-column text-left'>
-                        <span className='fs-5'>Plan</span>
-                        <span>/</span>
-                        <img className='horicon' src={ico_horaires_1} alt="plans" />
-                        <button className="horaires-btn my-2 rounded-3 text-black bg-warning">Sur le plan du zoo</button>
-                    </p>
-                    <p className='d-flex flex-column text-left'>
                         <span className='fs-5'>Trajets</span>
                         <span>/</span>
                         <button className="horaires-btn my-2 rounded-3 text-black bg-warning">En transport en commun</button>
@@ -133,13 +127,14 @@ function Page() {
                     <p className={`z-0 ${isCardOpen2 ? "billet" : "billet-sel"} billet-center-gap`} onClick={toggleCard2}>Pass annuel</p>
                     <p className={`z-0 ${isCardOpen3 ? "billet" : "billet-sel"}`} onClick={toggleCard3}>Cartes de groupe</p>
                 </div>
+                
                 <div className={`z-1 ${isCardOpen1 ? "card-open" : "card-close"}`}>
                     <div className='incard-cont'>
                         <img className='incard-bg' src={cardbg1} alt="card bg " />
-                        <h2>
-                            Acceder au pass annuel !
+                        <h2 className='ticket-title'>
+                            Achetez le billet du jour !
                         </h2>
-                        <div className="cont1">
+                        <div className="ticket-container">
                             <div className='incard-icon-cont'>
                                 <img className='card-icon' src={cardicon1} alt="icon card1" />
                                 Moins cher que sur les caisses enregistreuses sur place
@@ -263,16 +258,240 @@ function Page() {
                 </div>
 
                 <div className={`z-1 ${isCardOpen2 ? "card-open" : "card-close"}`}>
-                    <h2>
-                        AH 2 !
-                    </h2>
+                    <div className='incard-cont'>
+                        <img className='incard-bg' src={cardbg1} alt="card bg " />
+                        <h2 className='ticket-title'>
+                            Pass annuel
+                        </h2>
+                        <div className="ticket-container">
+                            <div className='incard-icon-cont'>
+                                <img className='card-icon' src={cardicon1} alt="icon card1" />
+                                365 Jours d'animaux
+                            </div>
+                            <div className='incard-icon-cont'>
+                                <img className='card-icon' src={cardicon2} alt="icon card2" />
+                                Est-ce que ca vaut la peine?
+                            </div>
+                            <div className='incard-icon-cont'>
+                                <img className='card-icon' src={cardicon3} alt="icon card3" />
+                                Laisser passer file d'attente.
+                            </div>
+                        </div>
+                        <p>Extension du laissez-passer annuel existant? <a href="/"> Cliquez ici !</a></p>
+                    </div>
+
+
+                    <div className='bubble-container'>
+                        <div className="bubble-text-left">
+                            <p>Adultes</p>
+                            <p className='small'>A partir de 16ans</p>
+                        </div>
+                        <div className="bubble">
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo</p>
+                                <p>
+                                    <span className='small'> Abonnement: 62,50 € </span>
+                                </p>
+                            </div>
+
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo + Aquarium</p>
+                                <p>
+                                    <span className='small'> Abonnement: 95,50 € </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="bubble-text-left">
+                            <p>Enfants</p>
+                            <p className='small'>4 a 15 ans</p>
+                        </div>
+                        <div className="bubble">
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo</p>
+                                <p> 
+                                    <span className='small'> Abonnement: 107,50 € </span>
+                                </p>
+                            </div>
+
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo + Aquarium</p>
+                                <p> 
+                                    <span className='small'> Abonnement: 119,50 € </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="bubble-text-left">
+                            <p>Enfants</p>
+                            <p className='small'>moins de 4 ans</p>
+                        </div>
+                        <div className="bubble">
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo + Aquarium</p>
+                                <p> libre <br></br> </p>
+                            </div>
+                        </div>
+
+                        <div className="bubble-text-left">
+                            <p>Réduit**</p>
+                            <p className='small'>Étudiants (16+), Étudiants, Stagiaires, FSJler/BFDLer, ALG I+II bénéficiaires,
+                                détenteurs de BN, gravement handicapés (à partir de 50 GdB, 16+)</p>
+                        </div>
+                        <div className="bubble">
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo</p>
+                                <p> En ligne: à partir de 9,00 €<br></br>
+                                    <span className='small'> Abonnement: 14,00 € </span>
+                                </p>
+                            </div>
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo + Aquarium</p>
+                                <p> En ligne: à partir de 13,00 € <br></br>
+                                    <span className='small'> Abonnement: 20,00 € </span>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <p className='bubble-billet-text'> Le prix du billet comprend une
+                            contribution volontaire de protection des espèces
+                            de 0,50 € (hors réduction) – voir plus
+                            d’informations ci-dessous. </p>
+
+                        <button className='bubble-cta'><p> RÉSERVEZ DES BILLETS MAINTENANT {">"} </p> </button>
+                    </div>
+                    <hr className='sep'></hr>
+                    <hr></hr>
+
+                    <div className="card-parapgraph">
+                        <p>
+                            Des indices importants !
+                        </p>
+                        <p>
+                            Les enfants de moins de 12 ans et les personnes qui n'ont pas la maturité nécessaire ou qui ont besoin d'une surveillance permanente en raison de leur condition mentale et/ou physique doivent toujours être accompagnés d'un adulte, une personne de surveillance.
+                        </p>
+
+                    </div>
                 </div>
 
 
                 <div className={`z-1 ${isCardOpen3 ? "card-open" : "card-close"}`}>
-                    <h1>
-                        AH 3 !
-                    </h1>
+                    <div className='incard-cont'>
+                        <img className='incard-bg' src={cardbg1} alt="card bg " />
+                        <h2 className='ticket-title'>
+                            Cartes de groupe
+                        </h2>
+                        <div className="ticket-container">
+                            <div className='incard-icon-cont'>
+                                <img className='card-icon' src={cardicon1} alt="icon card1" />
+                                Inscription a l'avance
+                            </div>
+                            <div className='incard-icon-cont'>
+                                <img className='card-icon' src={cardicon2} alt="icon card2" />
+                                Billet de grope uniquement disponible sur caisse
+                            </div>
+                            <div className='incard-icon-cont'>
+                                <img className='card-icon' src={cardicon3} alt="icon card3" />
+                                Certificat requis voir modele ci dessous.
+                            </div>
+                        </div>
+                        <p>Extension du laissez-passer annuel existant? <a href="/"> Cliquez ici !</a></p>
+                    </div>
+
+
+                    <div className='bubble-container'>
+                        <div className="bubble-text-left">
+                            <p>Adultes</p>
+                            <p className='small'>A partir de 16ans</p>
+                        </div>
+                        <div className="bubble">
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo</p>
+                                <p>
+                                    <span className='small'> Abonnement: 62,50 € </span>
+                                </p>
+                            </div>
+
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo + Aquarium</p>
+                                <p>
+                                    <span className='small'> Abonnement: 95,50 € </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="bubble-text-left">
+                            <p>Enfants</p>
+                            <p className='small'>4 a 15 ans</p>
+                        </div>
+                        <div className="bubble">
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo</p>
+                                <p> 
+                                    <span className='small'> Abonnement: 107,50 € </span>
+                                </p>
+                            </div>
+
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo + Aquarium</p>
+                                <p> 
+                                    <span className='small'> Abonnement: 119,50 € </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="bubble-text-left">
+                            <p>Enfants</p>
+                            <p className='small'>moins de 4 ans</p>
+                        </div>
+                        <div className="bubble">
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo + Aquarium</p>
+                                <p> libre <br></br> </p>
+                            </div>
+                        </div>
+
+                        <div className="bubble-text-left">
+                            <p>Réduit**</p>
+                            <p className='small'>Étudiants (16+), Étudiants, Stagiaires, FSJler/BFDLer, ALG I+II bénéficiaires,
+                                détenteurs de BN, gravement handicapés (à partir de 50 GdB, 16+)</p>
+                        </div>
+                        <div className="bubble">
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo</p>
+                                <p> En ligne: à partir de 9,00 €<br></br>
+                                    <span className='small'> Abonnement: 14,00 € </span>
+                                </p>
+                            </div>
+                            <div className='bubble-content-space-btw'>
+                                <p>Zoo + Aquarium</p>
+                                <p> En ligne: à partir de 13,00 € <br></br>
+                                    <span className='small'> Abonnement: 20,00 € </span>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <p className='bubble-billet-text'> Le prix du billet comprend une
+                            contribution volontaire de protection des espèces
+                            de 0,50 € (hors réduction) – voir plus
+                            d’informations ci-dessous. </p>
+
+                        <button className='bubble-cta'><p> RÉSERVEZ DES BILLETS MAINTENANT {">"} </p> </button>
+                    </div>
+                    <hr className='sep'></hr>
+                    <hr></hr>
+
+                    <div className="card-parapgraph">
+                        <p>
+                            Des indices importants !
+                        </p>
+                        <p>
+                            Les enfants de moins de 12 ans et les personnes qui n'ont pas la maturité nécessaire ou qui ont besoin d'une surveillance permanente en raison de leur condition mentale et/ou physique doivent toujours être accompagnés d'un adulte, une personne de surveillance.
+                        </p>
+
+                    </div>
                 </div>
 
             </div>
