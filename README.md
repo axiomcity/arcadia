@@ -6,7 +6,7 @@
 
 ## 📖 Introduction au projet Arcadia
 
-**Arcadia** est un exercice de développement web visant à recréer un site web pour un zoo.
+**Arcadia** Projet Arcadia.
 ![GIT_IMAGE01](assets/img/icon/GIT_IMG_01.png)
 
 **Billeterie**
